@@ -11,5 +11,10 @@ pipeline {
         sh 'echo bye'
       }
     }
+    stage('lunch') {
+      steps {
+        sh 'echo by lunch'
+      }
+    }
   }
 }
